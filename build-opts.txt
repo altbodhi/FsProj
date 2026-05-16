@@ -1,0 +1,8 @@
+Boo.fs 
+App.fs  
+--targetprofile:netcore 
+--target:exe 
+--out:test.dll 
+--nologo 
+--reflectionfree 
+--allsigs
