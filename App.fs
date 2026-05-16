@@ -1,4 +1,4 @@
 module Blevaka.App
-open System
 
+Boo.message |> printfn "%s"
 Boo.hello()

@@ -1,3 +1,4 @@
+Boo.fsi
 Boo.fs 
 App.fs  
 --targetprofile:netcore 
@@ -5,4 +6,4 @@ App.fs
 --out:test.dll 
 --nologo 
 --reflectionfree 
---allsigs
+#--allsigs
