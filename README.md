@@ -3,6 +3,8 @@ dotnet new and build binary with dotnet build.
 But it not required because you can use fsharp compiler
 directly. This is demo project how to it.
 
+Before test make initial (module-name).fsi files with compiler option --allsigs
+
 After comment --allsigs key and add at top Boo.fsi in build-opts.txt
 and modify Boo.fs try access to Boo.message from App.fs
 
