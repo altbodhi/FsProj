@@ -1,4 +1,11 @@
 module Blevaka.Boo
 
-let message = "Hello!"
-let hello = fun () -> printfn "%s" message
+open type System.Console
+
+let read (prompt: string) =
+    Write prompt
+    ReadLine()
+
+let readName () = read "your name: "
+
+let hello () = readName () |> printfn "Hello, %s!"
